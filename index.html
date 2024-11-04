@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr" class="has-navbar-fixed-top" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5bab979221.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+            <nav class="navbar has-shadow is-fixed-top">
+                <div class="navbar-brand">
+                    <a href="index.html" class="navbar-item">
+                    <img src="./Ressources/pav.png" alt="">
+                    </a>
+                    <a class="navbar-burger has-text-primary"
+                    data-target="menuContent" id="btnNav" role="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </a>
+                </div>
+
+                <div class="navbar-menu" id="menuContent">
+                    <div class="navbar-end">
+                        <a href="#apropos" class="navbar-item has-text-primary">À propos</a>
+                        <a href="#realisations" class="navbar-item has-text-primary">Réalisations</a>       
+                        <div class="navbar-item">
+                        <a href="#contact" class="button is-info" role="button">Contact</a>
+                        </div>
+                    </div>
+                 </div>
+            </nav>
+
+<!-- Section page d'accueil -->
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered is-centered">
+                    
+                    <div class="container column is-4 has-text-left has-text-centered-mobile">
+                        <h1 class="title has-text-text is-3 is-size-5-mobile">Lorem ipsum dolor sit amet.</h1>
+                        <h2 class="subtitle is-4 is-size-6-mobile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem?</h2>
+                        <a href="#contact" class="button is-medium is-rounded is-info">Contact</a>
+                    </div>
+                    
+                    <div class="container column is-5" id="photoaccueil">
+                        <figure class="image">
+                            <img src="./Ressources/milan-popovic-BmyXTxyDL-I-unsplash (1).jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="scroll-indicator has-text-centered">
+        <span class="icon has-text-primary" id="iconaccueil">
+        <i class="fas fa-light fa-chevron-down"></i>
+        </span>
+    </div>
+        
+<!-- Section a propos -->
+    <hr>
+    <section class="section is-small has-background-info" id="apropos">
+        <div class="container p-6">
+        <h2 class="title is-3 is-size-4-mobile has-text-centered">À propos</h2>
+        <figure class="image container is-128x128">
+            <img src="./Ressources/carre.jpg" alt="" class="is-rounded is-centered">
+        </figure>
+        <br>
+        <div class="columns is-centered">
+            <p class="column is-6 has-text-justified has-text-left-mobile">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facilis unde, fugit possimus officiis consequuntur iusto ipsam, eos quo dolorum corrupti, corporis nesciunt mollitia! Deserunt incidunt blanditiis aliquid nulla. Quas fugiat odio quo placeat nam dolorum, reprehenderit, ab consequuntur, saepe delectus rem harum et excepturi perspiciatis! Vero autem magni assumenda dolores libero aspernatur tempore ab hic optio quasi voluptas nulla, sunt, itaque voluptatum dignissimos reprehenderit ex possimus quo repudiandae adipisci veritatis perferendis cumque sit officiis. Ipsam accusamus sapiente velit eum quaerat, maxime eligendi illum dolor vitae expedita sed? Quam delectus provident iste minima dignissimos ratione voluptatibus sint assumenda veritatis sit?
+            </p>
+        </div>
+        </div>
+    </section>
+
+<!-- Section réalisations -->
+    <hr>
+    <section class="section is-small" id="realisations">
+        <div class="container p-6">
+            <h2 class="title is-3 is-size-4-mobile has-text-centered">Nos réalisations</h2>
+
+            <div class="columns is-multiline is-centered is-mobile mt-6">
+
+                <div class="column is-4-tablet is-4-dekstop is-full-mobile">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-square">
+                                <img src="./Ressources/milan-popovic-BmyXTxyDL-I-unsplash (1).jpg" alt="" style="object-fit: cover;">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-4-tablet is-4-dekstop is-full-mobile">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-square">
+                                <img src="./Ressources/milan-popovic-BmyXTxyDL-I-unsplash (1).jpg" alt="" style="object-fit: cover;">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-full-mobile is-4-tablet is-4-dekstop">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-square">
+                                <img src="./Ressources/milan-popovic-BmyXTxyDL-I-unsplash (1).jpg" alt="" style="object-fit: cover;">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<!-- Section contact -->
+<hr>
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <h2 class="title is-3 is-size-4-mobile has-text-centered">Contactez-nous</h2>
+                    <form action="https://formspree.io/f/xovazevr" method="post">
+                    <div class="field pb-3">
+                        <label class="label">Nom</label>
+                        <div class="control has-icons-left">
+                        <input name="nom" class="input" type="text" placeholder="Votre nom">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-user"></i>
+                        </span>
+                        </div>
+                    </div>
+                    
+                    <div class="field pb-3">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left">
+                        <input name="mail" class="input" type="email" placeholder="Votre email">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="field pb-4">
+                        <label class="label">Demande</label>
+                        <div class="control">
+                            <textarea name="demande" class="textarea has-fixed-size" placeholder="Votre demande"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="control has-text-centered">
+                        <button class="button is-info is-rounded">Envoyer</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script>
+    var btn = document.getElementById("btnNav")
+    var content = document.getElementById("menuContent")
+    var itemnavbar = document.querySelectorAll(".navbar-item")
+
+    btn.addEventListener("click", function(){
+        content.classList.toggle("is-active")
+    })
+
+    document.addEventListener("click", function(){
+        if (!btn.contains(event.target)) {
+            content.classList.remove("is-active")
+        }
+    })
+
+    itemnavbar.addEventListener("click", function(){
+        if(!btn.contains(event.target)) {
+            content.classList.remove("is-active")
+        }
+    }) 
+</script>
+</body>
+</html>

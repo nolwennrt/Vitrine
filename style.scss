@@ -1,0 +1,39 @@
+// Déclaration des variables //
+$primary : #C6AC8F;
+$text: #22333B;
+$info : #EAE0D5;
+
+
+@import "./node_modules/bulma/sass";
+
+// *, ::before, ::after {
+//     box-sizing: border-box;
+//     margin: 0;
+//     padding: 0;
+// }
+
+h2 {
+    margin-bottom: 20px;
+}
+
+nav {
+    padding: 0 40px 0 40px;
+}
+
+
+#photoaccueil {
+    height: 550px;
+    width: 450px;
+}
+
+@media screen and (max-width: 500px) {
+    #photoaccueil {
+        width: auto;
+        height: auto;
+    }
+}
+
+#iconaccueil {
+    font-size: 2rem;
+}
+
